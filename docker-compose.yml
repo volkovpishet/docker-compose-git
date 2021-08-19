@@ -1,0 +1,7 @@
+version: '3'
+services:
+  docker-compose-git:
+    image: volkovpishet/docker-compose-git:${TAG}
+    build:
+      context: .
+    tty: true
